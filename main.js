@@ -48,7 +48,7 @@ window.AI_messager = AI_messager
 
 async function call(prompt) {
 
-    const client = new InferenceClient("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");
+    const client = new InferenceClient("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");
 
     const chatCompletion = await client.chatCompletion({
         provider: "novita",
